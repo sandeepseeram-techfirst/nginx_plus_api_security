@@ -1,0 +1,52 @@
+---
+
+    - hosts: nginx_gw_api
+      connection: local
+      gather_facts: false
+      vars:
+        nginx_gw_api: "10.1.10.9"
+
+      tasks:
+      - name: Buy stocks
+        uri:
+          url: "https://{{  nginx_gw_api }}/trading/rest/buy_stocks.php"
+          method: POST
+          headers:
+            "Content-Type": "application/json"
+          body: "{{ lookup('file','buy_stocks.json') }}"
+          body_format: json
+          validate_certs: no
+          status_code: 200
+          
+      - name: Sell stocks
+        uri:
+          url: "https://{{ nginx_gw_api  }}/trading/rest/sell_stocks.php"
+          method: POST
+          headers:
+            "Content-Type": "application/json"
+          body: "{{ lookup('file','sell_stocks.json') }}"
+          body_format: json
+          validate_certs: no
+          status_code: 200
+          
+      - name: Transfer Money
+        uri:
+          url: "https://{{  nginx_gw_api }}/api/rest/execute_money_transfer.php"
+          method: POST
+          headers:
+            "Content-Type": "application/json"
+          body: "{{ lookup('file','transfer_money.json') }}"
+          body_format: json
+          validate_certs: no
+          status_code: 200
+          
+      - name: Last transactions
+        uri:
+          url: "https://{{  nginx_gw_api }}/trading/transactions.php"
+          method: GET
+          validate_certs: no
+          status_code: 200
+          
+
+          
+        
