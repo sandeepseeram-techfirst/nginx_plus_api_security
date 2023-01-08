@@ -1,0 +1,523 @@
+Setup complete!
+$ pip install dbt==0.19.2 --ignore-installed; pip install --upgrade markupsafe==2.0.1
+Collecting dbt==0.19.2
+  Downloading dbt-0.19.2-py3-none-any.whl (2.5 kB)
+Collecting dbt-redshift==0.19.2
+  Downloading dbt_redshift-0.19.2-py3-none-any.whl (11 kB)
+Collecting dbt-core==0.19.2
+  Downloading dbt_core-0.19.2-py3-none-any.whl (792 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 792.1/792.1 kB 34.6 MB/s eta 0:00:00
+Collecting dbt-bigquery==0.19.2
+  Downloading dbt_bigquery-0.19.2-py3-none-any.whl (28 kB)
+Collecting dbt-snowflake==0.19.2
+  Downloading dbt_snowflake-0.19.2-py3-none-any.whl (16 kB)
+Collecting dbt-postgres==0.19.2
+  Downloading dbt_postgres-0.19.2-py3-none-any.whl (11 kB)
+Collecting google-cloud-bigquery<2.4,>=1.25.0
+  Downloading google_cloud_bigquery-2.3.1-py2.py3-none-any.whl (208 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 208.5/208.5 kB 9.6 MB/s eta 0:00:00
+Collecting google-cloud-core<1.5,>=1.3.0
+  Downloading google_cloud_core-1.4.4-py2.py3-none-any.whl (27 kB)
+Collecting protobuf<4,>=3.13.0
+  Downloading protobuf-3.20.3-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.whl (1.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.0/1.0 MB 75.7 MB/s eta 0:00:00
+Collecting six>=1.14.0
+  Downloading six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting googleapis-common-protos<1.53,>=1.6.0
+  Downloading googleapis_common_protos-1.52.0-py2.py3-none-any.whl (100 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100.2/100.2 kB 20.1 MB/s eta 0:00:00
+Collecting google-api-core<1.24,>=1.16.0
+  Downloading google_api_core-1.23.0-py2.py3-none-any.whl (91 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 92.0/92.0 kB 17.4 MB/s eta 0:00:00
+Collecting colorama<0.4.4,>=0.3.9
+  Downloading colorama-0.4.3-py2.py3-none-any.whl (15 kB)
+Collecting hologram==0.0.13
+  Downloading hologram-0.0.13-py3-none-any.whl (11 kB)
+Collecting agate<1.6.2,>=1.6
+  Downloading agate-1.6.1-py2.py3-none-any.whl (98 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 98.5/98.5 kB 18.8 MB/s eta 0:00:00
+Collecting minimal-snowplow-tracker==0.0.2
+  Downloading minimal-snowplow-tracker-0.0.2.tar.gz (12 kB)
+  Preparing metadata (setup.py) ... done
+Collecting mashumaro==2.0
+  Downloading mashumaro-2.0.tar.gz (25 kB)
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+  Preparing metadata (pyproject.toml) ... done
+Collecting json-rpc<2,>=1.12
+  Downloading json_rpc-1.14.0-py2.py3-none-any.whl (39 kB)
+Collecting networkx<3,>=2.3
+  Downloading networkx-2.8.8-py3-none-any.whl (2.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.0/2.0 MB 68.6 MB/s eta 0:00:00
+Collecting isodate<0.7,>=0.6
+  Downloading isodate-0.6.1-py2.py3-none-any.whl (41 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 41.7/41.7 kB 10.6 MB/s eta 0:00:00
+Collecting typing-extensions<3.8,>=3.7.4
+  Downloading typing_extensions-3.7.4.3-py3-none-any.whl (22 kB)
+Collecting werkzeug<2.0,>=0.15
+  Downloading Werkzeug-1.0.1-py2.py3-none-any.whl (298 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 298.6/298.6 kB 38.6 MB/s eta 0:00:00
+Collecting Jinja2==2.11.2
+  Downloading Jinja2-2.11.2-py2.py3-none-any.whl (125 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 125.8/125.8 kB 25.0 MB/s eta 0:00:00
+Collecting logbook<1.6,>=1.5
+  Downloading Logbook-1.5.3.tar.gz (85 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 85.8/85.8 kB 2.9 MB/s eta 0:00:00
+  Preparing metadata (setup.py) ... done
+Collecting requests<2.24.0,>=2.18.0
+  Downloading requests-2.23.0-py2.py3-none-any.whl (58 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 58.4/58.4 kB 9.4 MB/s eta 0:00:00
+Collecting sqlparse<0.4,>=0.2.3
+  Downloading sqlparse-0.3.1-py2.py3-none-any.whl (40 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 40.8/40.8 kB 7.7 MB/s eta 0:00:00
+Collecting cffi<1.15,>=1.9
+  Downloading cffi-1.14.6-cp38-cp38-manylinux1_x86_64.whl (411 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 411.7/411.7 kB 45.4 MB/s eta 0:00:00
+Collecting PyYAML>=3.11
+  Downloading PyYAML-6.0-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl (701 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 701.2/701.2 kB 31.8 MB/s eta 0:00:00
+Collecting idna<2.10
+  Downloading idna-2.9-py2.py3-none-any.whl (58 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 58.4/58.4 kB 14.9 MB/s eta 0:00:00
+Collecting psycopg2-binary~=2.8
+  Downloading psycopg2_binary-2.9.5-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.0/3.0 MB 68.1 MB/s eta 0:00:00
+Collecting boto3<1.16,>=1.4.4
+  Downloading boto3-1.15.18-py2.py3-none-any.whl (129 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 129.1/129.1 kB 19.5 MB/s eta 0:00:00
+Collecting snowflake-connector-python[secure-local-storage]==2.3.6
+  Downloading snowflake_connector_python-2.3.6-cp38-cp38-manylinux2010_x86_64.whl (12.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.0/12.0 MB 71.5 MB/s eta 0:00:00
+Collecting azure-common<2.0.0
+  Downloading azure_common-1.1.28-py2.py3-none-any.whl (14 kB)
+Collecting urllib3<1.26.0,>=1.20
+  Downloading urllib3-1.25.11-py2.py3-none-any.whl (127 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 128.0/128.0 kB 6.3 MB/s eta 0:00:00
+Collecting cryptography<4,>=3.2
+  Downloading cryptography-3.4.8-cp36-abi3-manylinux_2_24_x86_64.whl (3.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.0/3.0 MB 75.0 MB/s eta 0:00:00
+Collecting azure-storage-blob<13.0.0,>=12.0.0
+  Downloading azure_storage_blob-12.14.1-py3-none-any.whl (383 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 383.2/383.2 kB 18.7 MB/s eta 0:00:00
+Collecting jsonschema<3.2,>=3.0
+  Downloading jsonschema-3.1.1-py2.py3-none-any.whl (56 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 56.1/56.1 kB 10.7 MB/s eta 0:00:00
+Collecting python-dateutil<2.9,>=2.8
+  Downloading python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 247.7/247.7 kB 11.6 MB/s eta 0:00:00
+Collecting MarkupSafe>=0.23
+  Downloading MarkupSafe-2.1.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (25 kB)
+Collecting msgpack>=0.5.6
+  Downloading msgpack-1.0.4-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (322 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 322.5/322.5 kB 45.6 MB/s eta 0:00:00
+Collecting pytz<2021.0
+  Downloading pytz-2020.5-py2.py3-none-any.whl (510 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 510.8/510.8 kB 47.8 MB/s eta 0:00:00
+Collecting pycryptodomex!=3.5.0,<4.0.0,>=3.2
+  Downloading pycryptodomex-3.16.0-cp35-abi3-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl (2.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.3/2.3 MB 58.3 MB/s eta 0:00:00
+Collecting pyjwt<2.0.0
+  Downloading PyJWT-1.7.1-py2.py3-none-any.whl (18 kB)
+Collecting certifi<2021.0.0
+  Downloading certifi-2020.12.5-py2.py3-none-any.whl (147 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 147.5/147.5 kB 6.9 MB/s eta 0:00:00
+Collecting asn1crypto<2.0.0,>0.24.0
+  Downloading asn1crypto-1.5.1-py2.py3-none-any.whl (105 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 105.0/105.0 kB 27.6 MB/s eta 0:00:00
+Collecting oscrypto<2.0.0
+  Downloading oscrypto-1.3.0-py2.py3-none-any.whl (194 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 194.6/194.6 kB 3.8 MB/s eta 0:00:00
+Collecting pyOpenSSL<21.0.0,>=16.2.0
+  Downloading pyOpenSSL-20.0.1-py2.py3-none-any.whl (54 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 54.1/54.1 kB 13.8 MB/s eta 0:00:00
+Collecting keyring!=16.1.0,<22.0.0
+  Downloading keyring-21.8.0-py3-none-any.whl (32 kB)
+Collecting leather>=0.3.2
+  Downloading leather-0.3.4-py2.py3-none-any.whl (31 kB)
+Collecting pytimeparse>=1.1.5
+  Downloading pytimeparse-1.1.8-py2.py3-none-any.whl (10.0 kB)
+Collecting Babel>=2.0
+  Downloading Babel-2.11.0-py3-none-any.whl (9.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.5/9.5 MB 58.7 MB/s eta 0:00:00
+Collecting python-slugify>=1.2.1
+  Downloading python_slugify-7.0.0-py2.py3-none-any.whl (9.4 kB)
+Collecting parsedatetime>=2.1
+  Downloading parsedatetime-2.6-py3-none-any.whl (42 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 42.5/42.5 kB 11.5 MB/s eta 0:00:00
+Collecting azure-core<2.0.0,>=1.24.2
+  Downloading azure_core-1.26.2-py3-none-any.whl (173 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 173.8/173.8 kB 39.5 MB/s eta 0:00:00
+Collecting msrest>=0.7.1
+  Downloading msrest-0.7.1-py3-none-any.whl (85 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 85.4/85.4 kB 5.7 MB/s eta 0:00:00
+Collecting s3transfer<0.4.0,>=0.3.0
+  Downloading s3transfer-0.3.7-py2.py3-none-any.whl (73 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 73.4/73.4 kB 21.6 MB/s eta 0:00:00
+Collecting botocore<1.19.0,>=1.18.18
+  Downloading botocore-1.18.18-py2.py3-none-any.whl (6.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.7/6.7 MB 78.7 MB/s eta 0:00:00
+Collecting jmespath<1.0.0,>=0.7.1
+  Downloading jmespath-0.10.0-py2.py3-none-any.whl (24 kB)
+Collecting pycparser
+  Downloading pycparser-2.21-py2.py3-none-any.whl (118 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 118.7/118.7 kB 32.3 MB/s eta 0:00:00
+Collecting setuptools>=34.0.0
+  Using cached setuptools-65.6.3-py3-none-any.whl (1.2 MB)
+Collecting google-auth<2.0dev,>=1.21.1
+  Downloading google_auth-1.35.0-py2.py3-none-any.whl (152 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 152.9/152.9 kB 28.5 MB/s eta 0:00:00
+Collecting google-api-core[grpc]<2.0.0dev,>=1.23.0
+  Downloading google_api_core-1.34.0-py3-none-any.whl (120 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 120.2/120.2 kB 8.9 MB/s eta 0:00:00
+Collecting proto-plus>=1.10.0
+  Downloading proto_plus-1.22.1-py3-none-any.whl (47 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 47.9/47.9 kB 2.4 MB/s eta 0:00:00
+Collecting google-resumable-media<2.0dev,>=0.6.0
+  Downloading google_resumable_media-1.3.3-py2.py3-none-any.whl (75 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 76.0/76.0 kB 4.9 MB/s eta 0:00:00
+Collecting chardet<4,>=3.0.2
+  Downloading chardet-3.0.4-py2.py3-none-any.whl (133 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 133.4/133.4 kB 8.4 MB/s eta 0:00:00
+Collecting azure-core<2.0.0,>=1.24.2
+  Downloading azure_core-1.26.1-py3-none-any.whl (172 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 172.6/172.6 kB 10.1 MB/s eta 0:00:00
+  Downloading azure_core-1.26.0-py3-none-any.whl (178 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 178.9/178.9 kB 11.2 MB/s eta 0:00:00
+  Downloading azure_core-1.25.1-py3-none-any.whl (178 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 178.8/178.8 kB 10.9 MB/s eta 0:00:00
+  Downloading azure_core-1.25.0-py3-none-any.whl (178 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 178.9/178.9 kB 39.1 MB/s eta 0:00:00
+  Downloading azure_core-1.24.2-py3-none-any.whl (178 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 178.7/178.7 kB 34.7 MB/s eta 0:00:00
+INFO: pip is looking at multiple versions of asn1crypto to determine which version is compatible with other requirements. This could take a while.
+Collecting asn1crypto<2.0.0,>0.24.0
+  Downloading asn1crypto-1.5.0-py2.py3-none-any.whl (105 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 105.0/105.0 kB 27.8 MB/s eta 0:00:00
+INFO: pip is looking at multiple versions of werkzeug to determine which version is compatible with other requirements. This could take a while.
+Collecting werkzeug<2.0,>=0.15
+  Downloading Werkzeug-1.0.0-py2.py3-none-any.whl (298 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 298.6/298.6 kB 37.3 MB/s eta 0:00:00
+INFO: pip is looking at multiple versions of urllib3 to determine which version is compatible with other requirements. This could take a while.
+Collecting urllib3<1.26.0,>=1.20
+  Downloading urllib3-1.25.10-py2.py3-none-any.whl (127 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 127.6/127.6 kB 31.8 MB/s eta 0:00:00
+INFO: pip is looking at multiple versions of typing-extensions to determine which version is compatible with other requirements. This could take a while.
+Collecting typing-extensions<3.8,>=3.7.4
+  Downloading typing_extensions-3.7.4.2-py3-none-any.whl (22 kB)
+  Downloading typing_extensions-3.7.4.1-py3-none-any.whl (20 kB)
+  Downloading typing_extensions-3.7.4-py3-none-any.whl (20 kB)
+INFO: pip is looking at multiple versions of sqlparse to determine which version is compatible with other requirements. This could take a while.
+Collecting sqlparse<0.4,>=0.2.3
+  Downloading sqlparse-0.3.0-py2.py3-none-any.whl (39 kB)
+INFO: pip is looking at multiple versions of typing-extensions to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of six to determine which version is compatible with other requirements. This could take a while.
+Collecting six>=1.14.0
+  Downloading six-1.15.0-py2.py3-none-any.whl (10 kB)
+INFO: pip is looking at multiple versions of requests to determine which version is compatible with other requirements. This could take a while.
+Collecting requests<2.24.0,>=2.18.0
+  Downloading requests-2.22.0-py2.py3-none-any.whl (57 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 58.0/58.0 kB 15.4 MB/s eta 0:00:00
+INFO: This is taking longer than usual. You might need to provide the dependency resolver with stricter constraints to reduce runtime. See https://pip.pypa.io/warnings/backtracking for guidance. If you want to abort this run, press Ctrl + C.
+INFO: pip is looking at multiple versions of pyyaml to determine which version is compatible with other requirements. This could take a while.
+Collecting PyYAML>=3.11
+  Downloading PyYAML-5.4.1-cp38-cp38-manylinux1_x86_64.whl (662 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 662.4/662.4 kB 62.0 MB/s eta 0:00:00
+INFO: pip is looking at multiple versions of psycopg2-binary to determine which version is compatible with other requirements. This could take a while.
+Collecting psycopg2-binary~=2.8
+  Downloading psycopg2_binary-2.9.4-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.0/3.0 MB 76.1 MB/s eta 0:00:00
+INFO: pip is looking at multiple versions of protobuf to determine which version is compatible with other requirements. This could take a while.
+Collecting protobuf<4,>=3.13.0
+  Downloading protobuf-3.20.2-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.whl (1.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.0/1.0 MB 60.6 MB/s eta 0:00:00
+INFO: pip is looking at multiple versions of networkx to determine which version is compatible with other requirements. This could take a while.
+Collecting networkx<3,>=2.3
+  Downloading networkx-2.8.7-py3-none-any.whl (2.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.0/2.0 MB 66.3 MB/s eta 0:00:00
+INFO: pip is looking at multiple versions of logbook to determine which version is compatible with other requirements. This could take a while.
+Collecting logbook<1.6,>=1.5
+  Downloading Logbook-1.5.2.tar.gz (85 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 85.7/85.7 kB 1.8 MB/s eta 0:00:00
+  Preparing metadata (setup.py) ... done
+INFO: pip is looking at multiple versions of json-rpc to determine which version is compatible with other requirements. This could take a while.
+Collecting json-rpc<2,>=1.12
+  Downloading json_rpc-1.13.0-py2.py3-none-any.whl (41 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 41.3/41.3 kB 9.8 MB/s eta 0:00:00
+INFO: pip is looking at multiple versions of isodate to determine which version is compatible with other requirements. This could take a while.
+Collecting isodate<0.7,>=0.6
+  Downloading isodate-0.6.0-py2.py3-none-any.whl (45 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 45.7/45.7 kB 11.9 MB/s eta 0:00:00
+INFO: pip is looking at multiple versions of idna to determine which version is compatible with other requirements. This could take a while.
+Collecting idna<2.10
+  Downloading idna-2.8-py2.py3-none-any.whl (58 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 58.6/58.6 kB 11.6 MB/s eta 0:00:00
+INFO: pip is looking at multiple versions of googleapis-common-protos to determine which version is compatible with other requirements. This could take a while.
+Collecting googleapis-common-protos<1.53,>=1.6.0
+  Downloading googleapis-common-protos-1.51.0.tar.gz (35 kB)
+  Preparing metadata (setup.py) ... done
+INFO: pip is looking at multiple versions of google-cloud-core to determine which version is compatible with other requirements. This could take a while.
+Collecting google-cloud-core<1.5,>=1.3.0
+  Downloading google_cloud_core-1.4.3-py2.py3-none-any.whl (27 kB)
+INFO: pip is looking at multiple versions of google-cloud-bigquery to determine which version is compatible with other requirements. This could take a while.
+Collecting google-cloud-bigquery<2.4,>=1.25.0
+  Downloading google_cloud_bigquery-2.2.0-py2.py3-none-any.whl (200 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 200.3/200.3 kB 35.7 MB/s eta 0:00:00
+INFO: pip is looking at multiple versions of google-api-core to determine which version is compatible with other requirements. This could take a while.
+Collecting google-api-core<1.24,>=1.16.0
+  Downloading google_api_core-1.22.4-py2.py3-none-any.whl (91 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 91.7/91.7 kB 5.3 MB/s eta 0:00:00
+INFO: pip is looking at multiple versions of cryptography to determine which version is compatible with other requirements. This could take a while.
+Collecting cryptography<4,>=3.2
+  Downloading cryptography-3.4.7-cp36-abi3-manylinux2014_x86_64.whl (3.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.2/3.2 MB 53.0 MB/s eta 0:00:00
+INFO: pip is looking at multiple versions of colorama to determine which version is compatible with other requirements. This could take a while.
+Collecting colorama<0.4.4,>=0.3.9
+  Downloading colorama-0.4.1-py2.py3-none-any.whl (15 kB)
+INFO: pip is looking at multiple versions of cffi to determine which version is compatible with other requirements. This could take a while.
+Collecting cffi<1.15,>=1.9
+  Downloading cffi-1.14.5-cp38-cp38-manylinux1_x86_64.whl (411 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 411.1/411.1 kB 21.2 MB/s eta 0:00:00
+INFO: pip is looking at multiple versions of boto3 to determine which version is compatible with other requirements. This could take a while.
+Collecting boto3<1.16,>=1.4.4
+  Downloading boto3-1.15.17-py2.py3-none-any.whl (129 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 129.1/129.1 kB 23.2 MB/s eta 0:00:00
+INFO: pip is looking at multiple versions of azure-storage-blob to determine which version is compatible with other requirements. This could take a while.
+Collecting azure-storage-blob<13.0.0,>=12.0.0
+  Downloading azure_storage_blob-12.14.0-py3-none-any.whl (383 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 383.2/383.2 kB 67.5 MB/s eta 0:00:00
+  Downloading azure_storage_blob-12.13.1-py3-none-any.whl (377 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 377.4/377.4 kB 42.8 MB/s eta 0:00:00
+Collecting azure-core<2.0.0,>=1.23.1
+  Downloading azure_core-1.24.1-py3-none-any.whl (178 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 178.6/178.6 kB 39.7 MB/s eta 0:00:00
+  Downloading azure_core-1.24.0-py3-none-any.whl (178 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 178.4/178.4 kB 40.9 MB/s eta 0:00:00
+  Downloading azure_core-1.23.1-py3-none-any.whl (178 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 178.2/178.2 kB 43.3 MB/s eta 0:00:00
+Collecting azure-storage-blob<13.0.0,>=12.0.0
+  Downloading azure_storage_blob-12.13.0-py3-none-any.whl (377 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 377.3/377.3 kB 66.4 MB/s eta 0:00:00
+  Downloading azure_storage_blob-12.12.0-py3-none-any.whl (366 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 366.4/366.4 kB 47.3 MB/s eta 0:00:00
+  Downloading azure_storage_blob-12.11.0-py3-none-any.whl (346 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 346.4/346.4 kB 57.1 MB/s eta 0:00:00
+Collecting azure-core<2.0.0,>=1.15.0
+  Downloading azure_core-1.23.0-py3-none-any.whl (179 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 179.3/179.3 kB 7.4 MB/s eta 0:00:00
+  Downloading azure_core-1.22.1-py3-none-any.whl (178 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 178.6/178.6 kB 43.2 MB/s eta 0:00:00
+Collecting google-api-core[grpc]<2.0.0dev,>=1.23.0
+  Downloading google_api_core-1.33.2-py3-none-any.whl (115 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 115.5/115.5 kB 29.3 MB/s eta 0:00:00
+  Downloading google_api_core-1.33.1-py3-none-any.whl (115 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 115.5/115.5 kB 28.9 MB/s eta 0:00:00
+  Downloading google_api_core-1.33.0-py3-none-any.whl (115 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 115.2/115.2 kB 29.6 MB/s eta 0:00:00
+  Downloading google_api_core-1.32.0-py2.py3-none-any.whl (93 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 93.6/93.6 kB 26.9 MB/s eta 0:00:00
+  Downloading google_api_core-1.31.6-py2.py3-none-any.whl (93 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 93.3/93.3 kB 25.5 MB/s eta 0:00:00
+  Downloading google_api_core-1.31.5-py2.py3-none-any.whl (93 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 93.3/93.3 kB 28.3 MB/s eta 0:00:00
+  Downloading google_api_core-1.31.4-py2.py3-none-any.whl (93 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 93.3/93.3 kB 27.3 MB/s eta 0:00:00
+  Downloading google_api_core-1.31.3-py2.py3-none-any.whl (93 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 93.3/93.3 kB 25.9 MB/s eta 0:00:00
+  Downloading google_api_core-1.31.2-py2.py3-none-any.whl (93 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 93.3/93.3 kB 24.9 MB/s eta 0:00:00
+  Downloading google_api_core-1.31.1-py2.py3-none-any.whl (93 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 93.1/93.1 kB 25.9 MB/s eta 0:00:00
+  Downloading google_api_core-1.31.0-py2.py3-none-any.whl (93 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 93.1/93.1 kB 22.7 MB/s eta 0:00:00
+  Downloading google_api_core-1.30.0-py2.py3-none-any.whl (93 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 93.2/93.2 kB 6.1 MB/s eta 0:00:00
+  Downloading google_api_core-1.29.0-py2.py3-none-any.whl (93 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 93.1/93.1 kB 27.5 MB/s eta 0:00:00
+  Downloading google_api_core-1.28.0-py2.py3-none-any.whl (92 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 93.0/93.0 kB 23.7 MB/s eta 0:00:00
+  Downloading google_api_core-1.27.0-py2.py3-none-any.whl (93 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 93.2/93.2 kB 23.1 MB/s eta 0:00:00
+  Downloading google_api_core-1.26.3-py2.py3-none-any.whl (93 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 93.1/93.1 kB 21.2 MB/s eta 0:00:00
+  Downloading google_api_core-1.26.2-py2.py3-none-any.whl (93 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 93.0/93.0 kB 24.5 MB/s eta 0:00:00
+  Downloading google_api_core-1.26.1-py2.py3-none-any.whl (92 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 93.0/93.0 kB 23.2 MB/s eta 0:00:00
+  Downloading google_api_core-1.26.0-py2.py3-none-any.whl (92 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 92.9/92.9 kB 5.1 MB/s eta 0:00:00
+  Downloading google_api_core-1.25.1-py2.py3-none-any.whl (92 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 92.3/92.3 kB 23.0 MB/s eta 0:00:00
+  Downloading google_api_core-1.25.0-py2.py3-none-any.whl (92 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 92.3/92.3 kB 24.9 MB/s eta 0:00:00
+  Downloading google_api_core-1.24.1-py2.py3-none-any.whl (92 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 92.0/92.0 kB 27.6 MB/s eta 0:00:00
+  Downloading google_api_core-1.24.0-py2.py3-none-any.whl (91 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 92.0/92.0 kB 23.3 MB/s eta 0:00:00
+Collecting grpcio<2.0dev,>=1.29.0
+  Downloading grpcio-1.51.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (4.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.8/4.8 MB 74.6 MB/s eta 0:00:00
+Collecting pyasn1-modules>=0.2.1
+  Downloading pyasn1_modules-0.2.8-py2.py3-none-any.whl (155 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 155.3/155.3 kB 39.4 MB/s eta 0:00:00
+Collecting rsa<5,>=3.1.4
+  Downloading rsa-4.9-py3-none-any.whl (34 kB)
+Collecting cachetools<5.0,>=2.0.0
+  Downloading cachetools-4.2.4-py3-none-any.whl (10 kB)
+Collecting google-crc32c<2.0dev,>=1.0
+  Downloading google_crc32c-1.5.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (32 kB)
+Collecting importlib-metadata
+  Downloading importlib_metadata-6.0.0-py3-none-any.whl (21 kB)
+Collecting attrs>=17.4.0
+  Downloading attrs-22.2.0-py3-none-any.whl (60 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 60.0/60.0 kB 18.2 MB/s eta 0:00:00
+Collecting pyrsistent>=0.14.0
+  Downloading pyrsistent-0.19.3-py3-none-any.whl (57 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 57.5/57.5 kB 16.6 MB/s eta 0:00:00
+Collecting jeepney>=0.4.2
+  Downloading jeepney-0.8.0-py3-none-any.whl (48 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 48.4/48.4 kB 2.5 MB/s eta 0:00:00
+Collecting SecretStorage>=3.2
+  Downloading SecretStorage-3.3.3-py3-none-any.whl (15 kB)
+Collecting requests-oauthlib>=0.5.0
+  Downloading requests_oauthlib-1.3.1-py2.py3-none-any.whl (23 kB)
+INFO: pip is looking at multiple versions of msrest to determine which version is compatible with other requirements. This could take a while.
+Collecting msrest>=0.6.21
+  Downloading msrest-0.6.21-py2.py3-none-any.whl (85 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 85.2/85.2 kB 21.7 MB/s eta 0:00:00
+Collecting text-unidecode>=1.3
+  Downloading text_unidecode-1.3-py2.py3-none-any.whl (78 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 78.2/78.2 kB 15.4 MB/s eta 0:00:00
+Collecting pyasn1<0.5.0,>=0.4.6
+  Downloading pyasn1-0.4.8-py2.py3-none-any.whl (77 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 77.1/77.1 kB 16.7 MB/s eta 0:00:00
+Collecting oauthlib>=3.0.0
+  Downloading oauthlib-3.2.2-py3-none-any.whl (151 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 151.7/151.7 kB 37.2 MB/s eta 0:00:00
+Collecting zipp>=0.5
+  Downloading zipp-3.11.0-py3-none-any.whl (6.6 kB)
+Building wheels for collected packages: mashumaro, minimal-snowplow-tracker, logbook
+  Building wheel for mashumaro (pyproject.toml) ... done
+  Created wheel for mashumaro: filename=mashumaro-2.0-py3-none-any.whl size=21163 sha256=f3e826154e596118b241030aaa79d784542c7ef1e1c8bfce7338336c908a4a72
+  Stored in directory: /root/.cache/pip/wheels/ef/93/7b/328a29c23c110f3125ef857a9f80a73b41d411e0ac6bbfc97d
+  Building wheel for minimal-snowplow-tracker (setup.py) ... done
+  Created wheel for minimal-snowplow-tracker: filename=minimal_snowplow_tracker-0.0.2-py3-none-any.whl size=17811 sha256=092d96ed2dc84c3ccafce89c7324c2c7c5ab35f932e1c478aac734d5480aa20e
+  Stored in directory: /root/.cache/pip/wheels/d4/04/77/72a8c17c9c19691be497bb4e192bd760aff6d47fa959d184e8
+  Building wheel for logbook (setup.py) ... done
+  Created wheel for logbook: filename=Logbook-1.5.3-cp38-cp38-linux_x86_64.whl size=66375 sha256=83ee5ec160b8a8c68f2c2bcf3d1425bbaaf20e6f588e44276e5cdfb5a474f866
+  Stored in directory: /root/.cache/pip/wheels/25/9a/c0/03bf368ac5f673e9c0bde58837146b004424b25555ca3aedfb
+Successfully built mashumaro minimal-snowplow-tracker logbook
+Installing collected packages: typing-extensions, text-unidecode, pytz, pytimeparse, pyjwt, pyasn1, parsedatetime, msgpack, logbook, json-rpc, chardet, certifi, azure-common, asn1crypto, zipp, werkzeug, urllib3, sqlparse, six, setuptools, rsa, PyYAML, python-slugify, pyrsistent, pycryptodomex, pycparser, pyasn1-modules, psycopg2-binary, protobuf, oscrypto, oauthlib, networkx, MarkupSafe, jmespath, jeepney, idna, grpcio, google-crc32c, colorama, cachetools, Babel, attrs, requests, python-dateutil, proto-plus, mashumaro, leather, Jinja2, isodate, importlib-metadata, googleapis-common-protos, google-resumable-media, google-auth, cffi, requests-oauthlib, minimal-snowplow-tracker, jsonschema, google-api-core, cryptography, botocore, azure-core, agate, SecretStorage, s3transfer, pyOpenSSL, msrest, hologram, google-cloud-core, keyring, google-cloud-bigquery, dbt-core, boto3, azure-storage-blob, snowflake-connector-python, dbt-postgres, dbt-bigquery, dbt-redshift, dbt-snowflake, dbt
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+launchpadlib 1.10.13 requires testresources, which is not installed.
+Successfully installed Babel-2.11.0 Jinja2-2.11.2 MarkupSafe-2.1.1 PyYAML-6.0 SecretStorage-3.3.3 agate-1.6.1 asn1crypto-1.5.1 attrs-22.2.0 azure-common-1.1.28 azure-core-1.22.1 azure-storage-blob-12.11.0 boto3-1.15.18 botocore-1.18.18 cachetools-4.2.4 certifi-2020.12.5 cffi-1.14.6 chardet-3.0.4 colorama-0.4.3 cryptography-3.4.8 dbt-0.19.2 dbt-bigquery-0.19.2 dbt-core-0.19.2 dbt-postgres-0.19.2 dbt-redshift-0.19.2 dbt-snowflake-0.19.2 google-api-core-1.23.0 google-auth-1.35.0 google-cloud-bigquery-2.3.1 google-cloud-core-1.4.4 google-crc32c-1.5.0 google-resumable-media-1.3.3 googleapis-common-protos-1.52.0 grpcio-1.51.1 hologram-0.0.13 idna-2.9 importlib-metadata-6.0.0 isodate-0.6.1 jeepney-0.8.0 jmespath-0.10.0 json-rpc-1.14.0 jsonschema-3.1.1 keyring-21.8.0 leather-0.3.4 logbook-1.5.3 mashumaro-2.0 minimal-snowplow-tracker-0.0.2 msgpack-1.0.4 msrest-0.6.21 networkx-2.8.8 oauthlib-3.2.2 oscrypto-1.3.0 parsedatetime-2.6 proto-plus-1.22.1 protobuf-3.20.3 psycopg2-binary-2.9.5 pyOpenSSL-20.0.1 pyasn1-0.4.8 pyasn1-modules-0.2.8 pycparser-2.21 pycryptodomex-3.16.0 pyjwt-1.7.1 pyrsistent-0.19.3 python-dateutil-2.8.2 python-slugify-7.0.0 pytimeparse-1.1.8 pytz-2020.5 requests-2.23.0 requests-oauthlib-1.3.1 rsa-4.9 s3transfer-0.3.7 setuptools-65.6.3 six-1.16.0 snowflake-connector-python-2.3.6 sqlparse-0.3.1 text-unidecode-1.3 typing-extensions-3.7.4.3 urllib3-1.25.11 werkzeug-1.0.1 zipp-3.11.0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+--- Logging error ---
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/pip/_internal/utils/logging.py", line 177, in emit
+    self.console.print(renderable, overflow="ignore", crop=False, style=style)
+  File "/usr/local/lib/python3.8/dist-packages/pip/_vendor/rich/console.py", line 1673, in print
+    extend(render(renderable, render_options))
+  File "/usr/local/lib/python3.8/dist-packages/pip/_vendor/rich/console.py", line 1305, in render
+    for render_output in iter_render:
+  File "/usr/local/lib/python3.8/dist-packages/pip/_internal/utils/logging.py", line 134, in __rich_console__
+    for line in lines:
+  File "/usr/local/lib/python3.8/dist-packages/pip/_vendor/rich/segment.py", line 249, in split_lines
+    for segment in segments:
+  File "/usr/local/lib/python3.8/dist-packages/pip/_vendor/rich/console.py", line 1283, in render
+    renderable = rich_cast(renderable)
+  File "/usr/local/lib/python3.8/dist-packages/pip/_vendor/rich/protocol.py", line 36, in rich_cast
+    renderable = cast_method()
+  File "/usr/local/lib/python3.8/dist-packages/pip/_internal/self_outdated_check.py", line 130, in __rich__
+    pip_cmd = get_best_invocation_for_this_pip()
+  File "/usr/local/lib/python3.8/dist-packages/pip/_internal/utils/entrypoints.py", line 58, in get_best_invocation_for_this_pip
+    if found_executable and os.path.samefile(
+  File "/usr/lib/python3.8/genericpath.py", line 101, in samefile
+    s2 = os.stat(f2)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/bin/pip3.8'
+Call stack:
+  File "/usr/local/bin/pip", line 8, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python3.8/dist-packages/pip/_internal/cli/main.py", line 70, in main
+    return command.main(cmd_args)
+  File "/usr/local/lib/python3.8/dist-packages/pip/_internal/cli/base_command.py", line 101, in main
+    return self._main(args)
+  File "/usr/local/lib/python3.8/dist-packages/pip/_internal/cli/base_command.py", line 223, in _main
+    self.handle_pip_version_check(options)
+  File "/usr/local/lib/python3.8/dist-packages/pip/_internal/cli/req_command.py", line 190, in handle_pip_version_check
+    pip_self_version_check(session, options)
+  File "/usr/local/lib/python3.8/dist-packages/pip/_internal/self_outdated_check.py", line 236, in pip_self_version_check
+    logger.warning("[present-rich] %s", upgrade_prompt)
+  File "/usr/lib/python3.8/logging/__init__.py", line 1458, in warning
+    self._log(WARNING, msg, args, **kwargs)
+  File "/usr/lib/python3.8/logging/__init__.py", line 1589, in _log
+    self.handle(record)
+  File "/usr/lib/python3.8/logging/__init__.py", line 1599, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.8/logging/__init__.py", line 1661, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.8/logging/__init__.py", line 954, in handle
+    self.emit(record)
+  File "/usr/local/lib/python3.8/dist-packages/pip/_internal/utils/logging.py", line 179, in emit
+    self.handleError(record)
+Message: '[present-rich] %s'
+Arguments: (UpgradePrompt(old='22.2.2', new='22.3.1'),)
+Collecting markupsafe==2.0.1
+  Downloading MarkupSafe-2.0.1-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl (30 kB)
+Installing collected packages: markupsafe
+  Attempting uninstall: markupsafe
+    Found existing installation: MarkupSafe 2.1.1
+    Uninstalling MarkupSafe-2.1.1:
+      Successfully uninstalled MarkupSafe-2.1.1
+Successfully installed markupsafe-2.0.1
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+--- Logging error ---
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/pip/_internal/utils/logging.py", line 177, in emit
+    self.console.print(renderable, overflow="ignore", crop=False, style=style)
+  File "/usr/local/lib/python3.8/dist-packages/pip/_vendor/rich/console.py", line 1673, in print
+    extend(render(renderable, render_options))
+  File "/usr/local/lib/python3.8/dist-packages/pip/_vendor/rich/console.py", line 1305, in render
+    for render_output in iter_render:
+  File "/usr/local/lib/python3.8/dist-packages/pip/_internal/utils/logging.py", line 134, in __rich_console__
+    for line in lines:
+  File "/usr/local/lib/python3.8/dist-packages/pip/_vendor/rich/segment.py", line 249, in split_lines
+    for segment in segments:
+  File "/usr/local/lib/python3.8/dist-packages/pip/_vendor/rich/console.py", line 1283, in render
+    renderable = rich_cast(renderable)
+  File "/usr/local/lib/python3.8/dist-packages/pip/_vendor/rich/protocol.py", line 36, in rich_cast
+    renderable = cast_method()
+  File "/usr/local/lib/python3.8/dist-packages/pip/_internal/self_outdated_check.py", line 130, in __rich__
+    pip_cmd = get_best_invocation_for_this_pip()
+  File "/usr/local/lib/python3.8/dist-packages/pip/_internal/utils/entrypoints.py", line 58, in get_best_invocation_for_this_pip
+    if found_executable and os.path.samefile(
+  File "/usr/lib/python3.8/genericpath.py", line 101, in samefile
+    s2 = os.stat(f2)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/bin/pip3.8'
+Call stack:
+  File "/usr/local/bin/pip", line 8, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python3.8/dist-packages/pip/_internal/cli/main.py", line 70, in main
+    return command.main(cmd_args)
+  File "/usr/local/lib/python3.8/dist-packages/pip/_internal/cli/base_command.py", line 101, in main
+    return self._main(args)
+  File "/usr/local/lib/python3.8/dist-packages/pip/_internal/cli/base_command.py", line 223, in _main
+    self.handle_pip_version_check(options)
+  File "/usr/local/lib/python3.8/dist-packages/pip/_internal/cli/req_command.py", line 190, in handle_pip_version_check
+    pip_self_version_check(session, options)
+  File "/usr/local/lib/python3.8/dist-packages/pip/_internal/self_outdated_check.py", line 236, in pip_self_version_check
+    logger.warning("[present-rich] %s", upgrade_prompt)
+  File "/usr/lib/python3.8/logging/__init__.py", line 1458, in warning
+    self._log(WARNING, msg, args, **kwargs)
+  File "/usr/lib/python3.8/logging/__init__.py", line 1589, in _log
+    self.handle(record)
+  File "/usr/lib/python3.8/logging/__init__.py", line 1599, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.8/logging/__init__.py", line 1661, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.8/logging/__init__.py", line 954, in handle
+    self.emit(record)
+  File "/usr/local/lib/python3.8/dist-packages/pip/_internal/utils/logging.py", line 179, in emit
+    self.handleError(record)
+Message: '[present-rich] %s'
+Arguments: (UpgradePrompt(old='22.2.2', new='22.3.1'),)
+$ 
